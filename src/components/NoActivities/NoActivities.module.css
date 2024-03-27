@@ -1,0 +1,22 @@
+.noAct{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    background-color: rgb(95, 193, 238);
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .noAct{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .noAct{
+        width: 70%;
+    }
+}

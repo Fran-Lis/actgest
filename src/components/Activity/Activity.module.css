@@ -1,0 +1,40 @@
+.activity{
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(95, 193, 238);
+    border-radius: 5px;
+}
+
+.activity, .activity:visited{
+    color: black;
+}
+
+.name{
+    width: 50%;
+    font-weight: bold;
+}
+
+.completed{
+    background-color: green;
+}
+
+.btn{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btnCompleted{
+    background-color: rgb(0, 81, 255);
+    margin-right: 5px;
+}
+
+.btnDelete{
+    background-color: red;
+}

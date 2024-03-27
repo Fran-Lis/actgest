@@ -1,0 +1,23 @@
+.list{
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(150, 217, 248);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .list{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+        padding: 4px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .list{
+        width: 70%;
+    }
+}

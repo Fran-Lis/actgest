@@ -1,0 +1,33 @@
+.name, .notes{
+    /*color: white;*/
+    padding: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+    background-color: rgb(150, 217, 248);
+}
+
+.notes{
+    min-height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    .name, .notes{
+        width: 90%;
+        margin: auto;
+    }
+
+    .name{
+        margin-top: 5%;
+    }
+
+    .notes{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .name, .notes{
+        width: 70%;
+    }
+}
