@@ -2,6 +2,7 @@
   "name": "actgest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fran-lis.github.io/actgest/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.2",
     "@testing-library/jest-dom": "^5.17.0",
